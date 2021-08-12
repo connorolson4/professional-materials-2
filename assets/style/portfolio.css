@@ -1,0 +1,143 @@
+body {
+    background-image: url("https://i.postimg.cc/tCW6Fh21/mountain-pine-trees-wallpaper.jpg");
+    background-position: bottom 1000px;
+    background-size: 2000px 1000px;
+    background-repeat: no-repeat;
+    
+}
+
+.navbar-brand {
+    border-bottom: 3px dotted black;
+    border-top: 3px dotted black;
+    color: black;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(225,225,225)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar {
+    background: orangered;
+}
+
+a {
+    font-family: 'Recursive', sans-serif;
+    color: white;
+}
+
+a:hover {
+    color: #cccccc;
+}
+
+.portfolio {
+    width: 1024px;
+    background: whitesmoke;
+    margin: 75px 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 5px ridge orangered;
+    flex: 1 0 auto;
+}
+
+
+img {
+    padding: 15px;
+}
+
+.images {
+    padding: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.pic {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    background-color: #666;
+    font-family: 'Recursive', sans-serif;
+}
+
+.container:hover .overlay{
+    opacity: 0.7;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Recursive', sans-serif;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+footer {
+    flex-shrink: 0;
+    width: 100%;
+    background: orangered;
+    text-align: center;
+    padding: 10px;
+    border-top: 10px double whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    color: #eee;
+}
+
+@media screen and (max-width:400px) {
+    .portfolio {
+        margin: 10px auto 0 auto;
+    }
+}
+/* 
+@media screen and (min-width: 992px) {
+    body {
+        height: 100%;
+        position: relative;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
+} */
+
+/* @media screen and (min-width: 1111px) {
+    body {
+        height: auto;
+    }
+}
+@media screen and (min-height: 1130px) {
+    body {
+        height: 100vh;
+    }
+}
+@media screen and (max-height: 954px) {
+    body {
+        height: auto;
+    }
+} */

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style/portfolio.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">Connor Olson</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+        <!-- Navbar, background image, and footer are the same for all 3 pages -->
+
+        <!-- Add background image to the body -->
+
+        <!-- Add a container with a Portfolio header with horizontal line underneath, with responsive images (2 images wide in bigger screens, in smaller screens they are stacked), and shrinks when the screen gets smaller-->
+
+    <div class="row" style="min-height:100vh">
+      <section class="portfolio col-lg-8 col-md-8 col-sm-8 col-10">
+            <div class="row">
+                <h1>Portfolio</h1>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="images col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="container">
+                        <img src="./assets/images/perfecthome.JPG" class="pic img-fluid" alt="Responsive image">
+                        <a href="https://perfect-home-finder.herokuapp.com/" alt="link to Perfect Home" target="blank"><div class="overlay">
+                            <div class="text">Perfect Home Pet Finder</div>
+                        </div></a>
+                    </div>
+                    <div class="container">
+                        <img src="./assets/images/hopr.JPG" class="pic img-fluid" alt="Responsive image">
+                        <a href="https://davidlucio.github.io/breweryfinder/" alt="link to hopr" target="blank"><div class="overlay">
+                            <div class="text">Hop'r Location Based Brewery Finder</div>
+                        </div></a>
+                    </div>
+                    <!-- <img src="https://placekitten.com/350/350" class="img-fluid" alt="Responsive image">
+                    <img src="https://placekitten.com/350/350" class="img-fluid" alt="Responsive image"> -->
+                </div>
+                <div class="images col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="container">
+                        <img src="./assets/images/weatherdash.JPG" class="pic img-fluid" alt="Responsive image"></a>
+                        <a href="https://connorolson4.github.io/weather-dashboard/" alt="link to weather dashboard" target="blank"><div class="overlay">
+                            <div class="text">Weather Dashboard</div>
+                        </div></a>
+                    </div>
+                    <div class="container">
+                        <img src="./assets/images/scheduler.JPG" class="pic img-fluid" alt="Responsive image"></a>
+                        <a href="https://github.com/connorolson4/workday-scheduler" alt="link to scheduler" target="blank"><div class="overlay">
+                            <div class="text">Work Day Planner That Saves Data to Local Storage</div>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>&copy Copyright 2021 Connor Olson</footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

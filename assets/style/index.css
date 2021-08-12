@@ -1,0 +1,88 @@
+body {
+    background-image: url("https://i.postimg.cc/tCW6Fh21/mountain-pine-trees-wallpaper.jpg");
+    background-position: bottom 1000px;
+    background-size: 2000px 1000px;
+    background-repeat: no-repeat;
+    
+}
+
+.navbar-brand {
+    border-bottom: 3px dotted black;
+    border-top: 3px dotted black;
+    color: black;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(225,225,225)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar {
+    background: orangered;
+}
+
+
+img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    font-family: 'Recursive', sans-serif;
+    color: white;
+}
+
+a:hover {
+    color: #cccccc;
+}
+
+.content {
+    width: 1024px;
+    background: whitesmoke;
+    margin: 75px 25px;
+    border: 5px ridge orangered;
+    flex: 1 0 auto;
+}
+
+h1 {
+    padding-top: 15px;
+    font-family: 'Recursive', sans-serif;
+}
+
+
+p {
+    text-indent: 2em;
+    padding-bottom: 10px;
+    font-family: 'Recursive', sans-serif;
+    letter-spacing: 1px;
+}
+
+footer {
+    flex-shrink: 0;
+    width: 100%;
+    background: orangered;
+    text-align: center;
+    color: #eee;
+    padding: 10px;
+    border-top: 10px double whitesmoke;
+    font-family: 'Recursive', sans-serif;
+}
+
+@media screen and (max-width:400px) {
+    .content {
+        margin: 10px auto 0 auto;
+    }
+}
+
+@media screen and (min-width:867px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
