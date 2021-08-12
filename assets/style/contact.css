@@ -4,9 +4,9 @@ html {
 
 body {
     background-image: url("https://i.postimg.cc/tCW6Fh21/mountain-pine-trees-wallpaper.jpg");
-    background-position: bottom 1000px;
-    background-size: 2000px 1000px;
+    background-size: cover;
     background-repeat: no-repeat;
+    
     
 }
 
